@@ -1,0 +1,5 @@
+This is the list of guessing steps that you tried: 
+You guessed: 20
+You guessed: 30
+You guessed: 25
+You guessed: 22
