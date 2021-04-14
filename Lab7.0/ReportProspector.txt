@@ -1,0 +1,45 @@
+Messages
+========
+
+class_unitTest.py
+  Line: 33
+    pylint: chained-comparison / Simplify chained comparison between the operands (col 15)
+  Line: 59
+    pylint: chained-comparison / Simplify chained comparison between the operands (col 15)
+
+filecmp_unitTest.py
+  Line: 28
+    pylint: undefined-variable / Undefined variable 'mobydick' (col 40)
+  Line: 34
+    pylint: undefined-variable / Undefined variable 'mobydick' (col 24)
+
+findNumber.py
+  Line: 27
+    pylint: no-else-break / Unnecessary "else" after "break" (col 4)
+
+mathCeil_unitTest.py
+  Line: 23
+    pylint: undefined-variable / Undefined variable 'a' (col 22)
+
+profit.py
+  Line: 43
+    pylint: consider-iterating-dictionary / Consider iterating the dictionary directly instead of calling .keys() (col 11)
+
+pythonFailing.py
+  Line: 40
+    pylint: no-else-break / Unnecessary "else" after "break" (col 8)
+
+
+
+Check Information
+=================
+         Started: 2021-04-13 23:57:12.636682
+        Finished: 2021-04-13 23:57:14.973454
+      Time Taken: 2.34 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 8
+

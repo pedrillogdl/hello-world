@@ -1,0 +1,3 @@
+This is the list of guessing steps that you tried: 
+You guessed: 2
+Number you were looking for was:25
