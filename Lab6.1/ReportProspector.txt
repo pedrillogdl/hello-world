@@ -1,0 +1,134 @@
+Messages
+========
+
+class_unitTest.py
+  Line: 3
+    pylint: unused-import / Unused import keyboard
+  Line: 4
+    pylint: unused-import / Unused import time
+  Line: 6
+    pylint: reimported / Reimport 'path' (imported line 5)
+    pylint: unused-import / Unused path imported from os
+  Line: 36
+    pylint: chained-comparison / Simplify chained comparison between the operands (col 15)
+  Line: 62
+    pylint: chained-comparison / Simplify chained comparison between the operands (col 15)
+  Line: 81
+    pylint: unused-variable / Unused variable 'count' (col 8)
+  Line: 82
+    pylint: unused-variable / Unused variable 'ListRecord' (col 8)
+  Line: 122
+    pylint: too-many-function-args / Too many positional arguments for method call (col 16)
+  Line: 133
+    pylint: too-many-function-args / Too many positional arguments for method call (col 16)
+
+convert2X.py
+  Line: 44
+    pep8: N816 / variable 'numberToConvert' in global scope should not be mixedCase (col 10)
+  Line: 54
+    pep8: N816 / variable 'finalBinaryNumber' in global scope should not be mixedCase (col 6)
+  Line: 55
+    pep8: N816 / variable 'finalHexaNumber' in global scope should not be mixedCase (col 6)
+  Line: 58
+    pep8: N816 / variable 'resultHexa' in global scope should not be mixedCase (col 6)
+  Line: 59
+    pep8: N816 / variable 'finalBinaryNumber' in global scope should not be mixedCase (col 6)
+  Line: 60
+    pep8: N816 / variable 'finalHexaNumber' in global scope should not be mixedCase (col 6)
+
+filecmp_unitTest.py
+  Line: 28
+    pylint: undefined-variable / Undefined variable 'mobydick' (col 40)
+  Line: 34
+    pylint: undefined-variable / Undefined variable 'mobydick' (col 24)
+
+findNumber.py
+  Line: 15
+    pep8: N816 / variable 'surpriseNumber' in global scope should not be mixedCase (col 2)
+  Line: 18
+    pep8: N816 / variable 'guessNumber' in global scope should not be mixedCase (col 2)
+  Line: 19
+    pep8: N816 / variable 'earlyExit' in global scope should not be mixedCase (col 2)
+  Line: 21
+    pep8: N816 / variable 'guessingSteps' in global scope should not be mixedCase (col 6)
+  Line: 23
+    pep8: N816 / variable 'earlyExit' in global scope should not be mixedCase (col 6)
+  Line: 27
+    pylint: no-else-break / Unnecessary "else" after "break" (col 4)
+  Line: 30
+    pep8: N816 / variable 'guessNumber' in global scope should not be mixedCase (col 10)
+  Line: 35
+    pep8: N816 / variable 'newFile' in global scope should not be mixedCase (col 2)
+
+findWords.py
+  Line: 1
+    pylint: unused-import / Unused import re
+  Line: 16
+    pep8: N816 / variable 'fileToRead' in global scope should not be mixedCase (col 10)
+  Line: 17
+    pep8: N816 / variable 'myFile' in global scope should not be mixedCase (col 10)
+  Line: 25
+    pep8: N816 / variable 'wordToFind' in global scope should not be mixedCase (col 2)
+  Line: 26
+    pep8: N816 / variable 'listOfWords' in global scope should not be mixedCase (col 2)
+  Line: 29
+    pep8: N816 / variable 'wordToFind' in global scope should not be mixedCase (col 6)
+
+mathCeil_unitTest.py
+  Line: 23
+    pylint: undefined-variable / Undefined variable 'a' (col 22)
+
+profit.py
+  Line: 6
+    pep8: N816 / variable 'propertiesProduct' in global scope should not be mixedCase (col 2)
+  Line: 15
+    pep8: N816 / variable 'costPrice' in global scope should not be mixedCase (col 14)
+  Line: 16
+    pep8: N816 / variable 'sellPrice' in global scope should not be mixedCase (col 14)
+  Line: 32
+    pep8: N816 / variable 'copyDictionary' in global scope should not be mixedCase (col 6)
+  Line: 33
+    pep8: N816 / variable 'finalProduct' in global scope should not be mixedCase (col 6)
+  Line: 43
+    pylint: consider-iterating-dictionary / Consider iterating the dictionary directly instead of calling .keys() (col 11)
+
+pythonFailing.py
+  Line: 40
+    pylint: no-else-break / Unnecessary "else" after "break" (col 8)
+  Line: 48
+    pylint: inconsistent-return-statements / Either all return statements in a function should return an expression, or none of them should.
+  Line: 53
+    pylint: unused-variable / Unused variable 'stringNumber' (col 4)
+  Line: 55
+    pylint: unused-variable / Unused variable 'count' (col 4)
+  Line: 72
+    pep8: N816 / variable 'numberToConvert' in global scope should not be mixedCase (col 10)
+  Line: 74
+    pep8: N816 / variable 'noNumber' in global scope should not be mixedCase (col 14)
+  Line: 76
+    pep8: N816 / variable 'noNumber' in global scope should not be mixedCase (col 14)
+  Line: 85
+    pep8: N816 / variable 'typeNumberToConvert' in global scope should not be mixedCase (col 2)
+  Line: 86
+    pep8: N816 / variable 'typeStringToNumber' in global scope should not be mixedCase (col 2)
+  Line: 92
+    pep8: N816 / variable 'resultInt' in global scope should not be mixedCase (col 6)
+  Line: 93
+    pep8: N816 / variable 'typeNumberToConvert' in global scope should not be mixedCase (col 6)
+  Line: 94
+    pep8: N816 / variable 'typeNumberToString' in global scope should not be mixedCase (col 6)
+
+
+
+Check Information
+=================
+         Started: 2021-04-13 23:06:27.785185
+        Finished: 2021-04-13 23:06:30.974986
+      Time Taken: 3.19 seconds
+       Formatter: grouped
+        Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
+      Strictness: None
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, pep8, profile-validator, pyflakes, pylint
+  Messages Found: 51
+
