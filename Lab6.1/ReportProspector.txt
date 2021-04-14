@@ -122,9 +122,9 @@ pythonFailing.py
 
 Check Information
 =================
-         Started: 2021-04-13 23:06:27.785185
-        Finished: 2021-04-13 23:06:30.974986
-      Time Taken: 3.19 seconds
+         Started: 2021-04-13 23:07:02.633202
+        Finished: 2021-04-13 23:07:05.473195
+      Time Taken: 2.84 seconds
        Formatter: grouped
         Profiles: default, no_doc_warnings, no_test_warnings, strictness_medium, strictness_high, strictness_veryhigh, no_member_warnings
       Strictness: None
