@@ -113,8 +113,8 @@ class TESTAGENDA(unittest.TestCase):
             #    recordForTestingB.FindRecord("UserForTesting")
             #with self.assertRaises(Exception):
                 #recordForTestingB.DeleteRecord("UserForTesting")
-            with self.assertRaises(Exception):
-                recordForTestingB.DisplayAll()
+            #with self.assertRaises(Exception):
+                #recordForTestingB.DisplayAll()
             recordForTestingB.AddRecord()
             self.assertEqual(os.system('ls MyAgenda.txt'), 0)
         else:
