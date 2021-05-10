@@ -1,16 +1,16 @@
-import unittest
 import pycodestyle
 
+fchecker = pycodestyle.Checker('class_unitTest.py', show_source=True)
+file_errors = fchecker.check_all()
 
-class TestCodeFormat(unittest.TestCase):
+print("Found %s errors (and warnings)" % file_errors)
 
-    def test_conformance(self):
-        """Test that we conform to PEP-8."""
-        style = pycodestyle.StyleGuide(quiet=True)
-        result = style.check_files(['class_unitTest.py', 'filecmp_unitTest.py', 'mathCeil_unitTest.py'])
-        self.assertEqual(result.total_errors, 0,
-                         "Found code style errors (and warnings).")
+fchecker = pycodestyle.Checker('filecmp_unitTest.py', show_source=True)
+file_errors = fchecker.check_all()
 
+print("Found %s errors (and warnings)" % file_errors)
 
-if __name__ == '__main__':
-    unittest.main()
+fchecker = pycodestyle.Checker('mathCeil_unitTest.py', show_source=True)
+file_errors = fchecker.check_all()
+
+print("Found %s errors (and warnings)" % file_errors)
